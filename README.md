@@ -1,4 +1,4 @@
-# Stopwatch Using Tkinter in Python #
+# Stopwatch Using Tkinter in Python
 
 Stopwatch (what else do you want?)
 
