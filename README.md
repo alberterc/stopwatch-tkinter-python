@@ -2,8 +2,6 @@
 Stopwatch (what else do you want?)
 
 ## Short Explanation
-The program uses OpenCV module and the haar cascade classifier for face recognition/tracking.
-- The OpenCV module is used for getting the video from a capture device.
 - Tkinter is used for making a window GUI.
 - Program is a stopwatch that can count seconds, minutes, and hours.
 
