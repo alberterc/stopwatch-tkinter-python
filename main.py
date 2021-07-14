@@ -28,8 +28,10 @@ def update(timeText):
             second += 1
             if second % 60 == 0 and second != 0:
                 minute += 1
+                second = 0
             if minute % 60 == 0 and minute != 0:
                 hour += 1
+                minute = 0
     logic()
 
 def Start(timeText):
@@ -50,6 +52,8 @@ def Stop():
 def Reset(timeText):
     global second
     second = 0
+    minute = 0
+    hour = 0
     if (isRunning == False):
         reset['state'] = 'disabled'
         timeText['text'] = resetTime
